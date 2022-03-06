@@ -29,7 +29,7 @@ appointments through a simple and easy-to-use platform.
 3. Type the command in the command box and press Enter to execute it. e.g. typing help and pressing Enter will open the help window. Refer to the [Features](#features) below for details of each command.
 
 --------------------------------------------------------------------------------------------------------------------
-=======
+
 ## 2.0 Features
 
 ### 2.1 Create Contact Information: / create -t contact
