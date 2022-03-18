@@ -12,6 +12,7 @@ import seedu.address.logic.parser.prescription.AddPrescriptionCommandParser;
 import seedu.address.logic.parser.prescription.DeletePrescriptionCommandParser;
 import seedu.address.logic.parser.prescription.ViewPrescriptionCommandParser;
 import seedu.address.logic.parser.testresult.AddTestResultCommandParser;
+import seedu.address.logic.parser.testresult.DeleteTestResultCommandParser;
 import seedu.address.logic.parser.testresult.ViewTestResultCommandParser;
 
 public enum CommandType {
@@ -87,7 +88,7 @@ public enum CommandType {
     }
 
     /**
-     * Returns command related to adding information to patients in Medbook.
+     * Returns command related to viewing information to patients in Medbook.
      *
      * @param commandType user input command type
      * @param arguments user input arguments
@@ -120,7 +121,6 @@ public enum CommandType {
 
     /**
      * Returns command related to deleting information to patients in Medbook.
-     *
      * @param arguments user input arguments
      * @return the command based on the user input
      */
